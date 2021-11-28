@@ -11449,6 +11449,31 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
+/* project */
+.portfolio-modal .modal-dialog {
+  margin: 1rem;
+  max-width: 100vw;
+}
+.portfolio-modal .modal-content {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+.portfolio-modal .modal-content img {
+  margin-bottom: 2rem;
+}
+.portfolio-modal .close-modal {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
 
 @media (min-width: 768px) {
   .timeline:before {
